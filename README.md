@@ -17,7 +17,7 @@ interactive analyses were used to answer business questions.
 - Python (pandas, matplotlib, plotly, ipywidgets)
 - Google colab
 - Git & GitHub
-- 
+
 ## Output
 An interactive analysis showing the top 5 apps by total installs for selected categories and monetization types.
 
