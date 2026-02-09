@@ -20,7 +20,11 @@ The analysis focuses on understanding what drives app adoption and how factors l
 
 data/
 ├── raw/
+
+
 │   └── googleplaystore.csv
+
+
 └── processed/
     └── cleaned_apps.csv
 
@@ -75,5 +79,6 @@ No time-series forecasting was performed due to lack of temporal data
 3. Run `01_cleaning_preparation.ipynb` to generate the cleaned dataset  
 4. Run `02_eda_analysis.ipynb` to perform exploratory data analysis
 
-✅ Conclusion
+## ✅ Conclusion
+
 This project demonstrates how structured data cleaning, exploratory analysis, and relationship-based predictive reasoning can provide meaningful insights into app market dynamics using real-world app store data.
