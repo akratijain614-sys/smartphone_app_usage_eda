@@ -6,34 +6,44 @@ The analysis focuses on understanding what drives app adoption and how factors l
 ## 🎯 Objectives
 
 -Analyze app distribution across categories
+
 -Compare install trends between Free and Paid apps
+
 -Study the relationship between ratings and install counts
+
 -Identify top-performing apps within categories
+
 -Build interactive visualizations for deeper exploration
+
 -Apply descriptive and predictive reasoning to interpret app success factors
 
 ## 📁 Dataset
 
 -Source: Google Play Store Apps dataset (Kaggle)
+
 -Raw data: Stored without modification
+
 -Processed data: Cleaned and standardized for analysis
 
 data/
 ├── raw/
 
-
-│   └── googleplaystore.csv
-
+  └── googleplaystore.csv
 
 └── processed/
+
     └── cleaned_apps.csv
 
 ## 🧹 Data Cleaning & Preparation
 
 -Converted installs, price, and reviews to numeric formats
+
 -Removed symbols and inconsistent values
+
 -Standardized column names
+
 -Preserved raw data and saved cleaned output separately
+
 ### Cleaning logic is documented in:
 01_cleaning_preparation.ipynb
 
@@ -43,17 +53,25 @@ data/
 Explore category-wise app dominance
 
 -Compare free vs paid app performance
+
 -Analyze install ranges and average ratings
+
 -Visualize trends using bar charts and aggregated metrics
+
 -Enable interactive filtering by category and app type
+
 ### EDA is documented in:
 02_eda_analysis.ipynb
 
 ## 📈 Key Insights
 -Free apps dominate total installs across nearly all categories
+
 -App installs are highly skewed — a small number of apps account for most downloads
+
 -Average ratings remain consistently high across install ranges
+
 -High ratings alone do not guarantee large-scale adoption
+
 -Accessibility, visibility, and network effects appear to be stronger drivers of success than ratings alone
 
 ## 🧠 Analysis Approach
